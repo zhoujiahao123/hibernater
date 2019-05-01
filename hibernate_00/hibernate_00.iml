@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map />
+        <naming-strategy-map />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Hibernate 5.4.2-5.4.2" type="hibernate">
+        <properties version="5.4.2" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/dom4j-2.1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/antlr-2.7.7.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/classmate-1.3.4.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/byte-buddy-1.9.10.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/hibernate-commons-annotations-5.1.0.Final.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/FastInfoset-1.2.15.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/jandex-2.0.5.Final.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/javax.activation-api-1.2.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/istack-commons-runtime-3.0.7.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/javassist-3.24.0-GA.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/javax.persistence-api-2.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/jaxb-api-2.3.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/hibernate-core-5.4.2.Final.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/jboss-logging-3.3.2.Final.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/jaxb-runtime-2.3.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/stax-ex-1.8.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/txw2-2.3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sql-server.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/sqljdbc42.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/hibernater/Microsoft JDBC Driver 6.0 for SQL Server/sqljdbc_6.0/chs/jre8/sqljdbc42.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/单元测试jar包/hamcrest-core-1.3.jar!/" />
+          <root url="jar://D:/单元测试jar包/junit-4.13-beta-2.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://D:/单元测试jar包/hamcrest-core-1.3-javadoc.jar!/" />
+          <root url="jar://D:/单元测试jar包/junit-4.13-beta-2-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://D:/单元测试jar包/hamcrest-core-1.3-sources.jar!/" />
+          <root url="jar://D:/单元测试jar包/junit-4.13-beta-2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
