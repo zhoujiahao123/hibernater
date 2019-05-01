@@ -61,6 +61,7 @@ public class SessionTest {
         inputStream.read(buff);
         outputStream.write(buff);
         inputStream.close();
+        
         outputStream.close();
     }
 }
