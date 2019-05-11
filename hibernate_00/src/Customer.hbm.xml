@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="Customer" table="customer">
+        <id name="cid" type="int">
+            <column name="cid"/>
+            <generator class="native"/>
+        </id>
+        <property name="custName" type="java.lang.String">
+            <column name="custName"/>
+        </property>
+        <property name="custLevel" type="java.lang.String">
+            <column name="custLevel"/>
+        </property>
+        <property name="custSource" type="java.lang.String">
+            <column name="custSource"/>
+        </property>
+        <property name="custMobile" type="java.lang.String">
+            <column name="custMobile"/>
+        </property>
+        <property name="custPhone" type="java.lang.String">
+            <column name="custPhone"/>
+        </property>
+        <!--name为集合名称 -->
+        <set name="list" cascade="save-update,delete" inverse="true">
+            <!--外键名称-->
+            <key column="clid">
+            </key>
+            <one-to-many class="Contacter"/>
+        </set>
+    </class>
+</hibernate-mapping>

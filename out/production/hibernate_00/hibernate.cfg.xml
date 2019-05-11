@@ -15,6 +15,8 @@
         <property name="hbm2ddl.auto">update</property>
         <property name="hibernate.current_session_context_class">thread</property>
         <mapping resource="Students.hbm.xml"/>
+        <mapping resource="Contacter.hbm.xml"/>
+        <mapping resource="Customer.hbm.xml"/>
         <!-- DB schema will be updated if needed -->
         <!-- <property name="hbm2ddl.auto">update</property> -->
     </session-factory>

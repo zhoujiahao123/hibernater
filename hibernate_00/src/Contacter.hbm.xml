@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="Contacter" table="contacter">
+        <id name="conId" type="int">
+            <column name="conId"/>
+            <generator class="native"/>
+        </id>
+        <property name="conName" type="java.lang.String">
+            <column name="conName"/>
+        </property>
+        <property name="conGender" type="java.lang.String">
+            <column name="conGender"/>
+        </property>
+        <property name="conPhone" type="java.lang.String">
+            <column name="conPhone"/>
+        </property>
+        <many-to-one name="customer" class="Customer" column="clid"/>
+    </class>
+</hibernate-mapping>

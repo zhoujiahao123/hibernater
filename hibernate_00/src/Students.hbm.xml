@@ -20,9 +20,16 @@
         <property name="birthday" type="java.util.Date">
             <column name="birthday"/>
         </property>
-        <property name="address" type="java.lang.String">
+        <component name="address" class="Address">
+            <property name="postCode" column="POSTCODE"></property>
+            <property name="phone" column="PHONE"></property>
+            <property name="address" column="ADDRESS"></property>
+        </component>
+        <!--
+                <property name="address" type="java.lang.String">
             <column name="address"/>
         </property>
+        -->
         <property name="picture" type="java.sql.Blob">
             <column name="picture"/>
         </property>
