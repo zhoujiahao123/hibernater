@@ -17,6 +17,8 @@
         <mapping resource="Students.hbm.xml"/>
         <mapping resource="Contacter.hbm.xml"/>
         <mapping resource="Customer.hbm.xml"/>
+        <mapping resource="user.hbm.xml"/>
+        <mapping resource="Role.hbm.xml"/>
         <!-- DB schema will be updated if needed -->
         <!-- <property name="hbm2ddl.auto">update</property> -->
     </session-factory>
